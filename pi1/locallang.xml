@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_rzgooglemaps_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="routeSubmit">Calculate route</label>
+			<label index="fromhere">from here</label>
+			<label index="tohere">to here</label>
+			<label index="error_one">No corresponding geographic location could be found for one of the specified addresses. This may be due to the fact that the address is relatively new, or it may be incorrect.</label>
+			<label index="error_two">A geocoding or directions request could not be successfully processed, yet the exact reason for the failure is not known.</label>
+			<label index="error_three">The HTTP q parameter was either missing or had no value. For geocoder requests, this means that an empty address was specified as input. For directions requests, this means that no query was specified in the input.</label>
+			<label index="error_four">The given key is either invalid or does not match the domain for which it was given.</label>
+			<label index="error_five">A directions request could not be successfully parsed.</label>
+			<label index="error_six">An unknown error occurred.</label>
+			<label index="directions_headline">Directions</label>
+			<label index="map_headline">Map</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="routeSubmit">Route berechnen</label>
+			<label index="fromhere">Von hier</label>
+			<label index="tohere">Nach hier</label>
+			<label index="error_one">Für eine der Adressen wurde keine Übereinstimmung gefunden. Der Grund dafür könnte sein, dass die Adresse neu ist oder falsch geschrieben.</label>		
+      <label index="error_two">Eine Route konnte nicht geplant werden, jedoch ist der genaue Grund dafür nicht bekannt.</label>
+			<label index="error_three">Der HTTP q Parameter fehlt oder war leer. Für den Geocoder heißt das, dass das Adress-Feld leer war.</label>
+			<label index="error_four">Der API Schlüssel ist entweder ungültig oder nicht für diese Domain zulässig.</label>
+			<label index="error_five">Eine Route konnte nicht erfolgreich geplant werden.</label>
+			<label index="error_six">Ein unbekannter Fehler ist aufgetreten.</label>
+			<label index="directions_headline">Routenplaner</label>
+			<label index="map_headline">Karte</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="routeSubmit">Calculer directions</label>
+			<label index="fromhere">D\'ici</label>
+			<label index="tohere">Ici</label>
+			<label index="error_one">Pur une adresse il n\'y a pas d\'accord. Las cause peut &#202;tre, que l\'adresse est nouvelle ou fausse.</label>		
+      <label index="error_two">Une route ne pouvait pas &#202;tre construite correctement, mais la cause est inconnu.</label>
+			<label index="error_three">Le param&#200;tre HTTP q manque ou est vide. Pour le Geocoder &#231;a veut dire que le input d\'adresse est vide.</label>
+			<label index="error_four">La cl&#233; API est invalide ou n\'est pas autoris&#233; pour ce site web.</label>
+			<label index="error_five">Une route ne pouvait pas &#202;tre construite correctement.</label>
+			<label index="error_six">Une erreur est entr&#233; en sc&#200;ne.</label>
+			<label index="directions_headline">Guide routier</label>
+			<label index="map_headline">Carte</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="routeSubmit">Ottenere indicazzione stradale</label>
+			<label index="fromhere">Da qui</label>
+			<label index="tohere">Per</label>
+			<label index="error_one"></label>		
+      <label index="error_two"></label>
+			<label index="error_three"></label>
+			<label index="error_four">La chiave API di Google Maps utilizzata in questo sito web è stata registrata per un altro sito o e invalido</label>
+			<label index="error_five">Non e possibile  fare un elenco</label>
+			<label index="error_six">C’è un errore sconosciuto</label>
+			<label index="directions_headline">Tragitto pianificazione</label>
+			<label index="map_headline">Carta</label>
+		</languageKey>
+	</data>
+</T3locallang>

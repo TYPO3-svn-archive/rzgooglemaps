@@ -1,0 +1,59 @@
+# # CSS [BEGIN]
+
+plugin.tx_rzgooglemaps_pi1 {
+	_CSS_DEFAULT_STYLE (
+	
+.rzgooglemaps_form {
+	margin-top: 10px;
+}
+
+#map_canvas span {
+	display: none;
+}
+
+.tx-rzgooglemaps-pi1 {
+	margin: 15px 0;
+}
+
+.mapsearchhide {
+  display: none;
+}
+
+.routebold {
+  font-weight: bold;
+}
+
+.rz-directions {
+  float: left;  
+}
+
+.rz-map {
+  float: right;
+}
+
+.rz-clear {
+  clear: both;
+} 
+
+	)
+}
+      
+# # CSS [END]
+
+# # Text StdWrap [BEGIN]
+
+plugin.tx_rzgooglemaps_pi1.textStdWrap {
+	parseFunc =< lib.parseFunc_RTE
+}
+
+# # Text StdWrap [END]        
+
+# # Template [BEGIN]
+
+plugin.tx_rzgooglemaps_pi1 {
+  templatePath = typo3conf/ext/rzgooglemaps/res/templates/
+  templateFile = advanced-route-planning.htm
+  templateFileRoute = only-route-planning.htm
+}  
+
+# # Template [END]   

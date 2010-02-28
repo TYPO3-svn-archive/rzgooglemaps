@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'rzgooglemaps'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Google Maps</label>
+			<label index="pi1_plus_wiz_description">Inserts a Google Map</label>
+			<label index="pi1_address">Street, ZIP Code, City, Country</label>
+			<label index="pi1_go">Go!</label>
+			<label index="pi1_drag">Drag me</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Google Maps</label>
+			<label index="pi1_plus_wiz_description">Fügt eine Google Map hinzu</label>
+			<label index="pi1_address">Straße, PLZ, Stadt, Land</label>
+			<label index="pi1_go">Go!</label>
+			<label index="pi1_drag">Verschiebe mich</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="pi1_title">Google Maps</label>
+			<label index="pi1_plus_wiz_description">Ajoute und Google Maps</label>
+			<label index="pi1_address">Rue, Code postal, Ville, Pays</label>
+			<label index="pi1_go">Allez!</label>
+			<label index="pi1_drag">D&#233;place moi</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="pi1_title">Google Maps</label>
+			<label index="pi1_plus_wiz_description">Aggiungere un Google Map</label>
+			<label index="pi1_address">Via, codice postale, paese, stato</label>
+			<label index="pi1_go">Avanti!</label>
+			<label index="pi1_drag">Dislocami Spostami</label>
+		</languageKey>
+	</data>
+</T3locallang>
+
+
+

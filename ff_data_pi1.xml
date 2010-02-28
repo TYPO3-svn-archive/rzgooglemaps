@@ -1,0 +1,618 @@
+<T3DataStructure> 
+  <meta>            
+    <langDisable>1</langDisable>
+  </meta>           
+  <sheets>        
+    <display>           
+      <ROOT>    
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.sheet_display</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>	           
+          <display_type>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.display_type</label>
+            <config>
+              <type>check</type>
+              <checkbox></checkbox>
+              <size>1</size>
+            </config>
+            </TCEforms>
+          </display_type>      
+        </el>     
+      </ROOT>     
+    </display>        
+    <sDEF>        
+      <ROOT>      
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.sheet_general</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>      
+          <api_key>     
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.api</label>
+            <config>
+              <type>input</type>
+              <size>50</size>
+            </config>
+            </TCEforms>
+          </api_key> 
+          <be_search>  
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.geocode</label>
+            <config>
+              <type>input</type>
+              <default>0</default>
+              <form_type>user</form_type>
+              <userFunc>tx_rzgooglemaps_geocode->user_search</userFunc>                    
+            </config>
+            </TCEforms>
+          </be_search>
+          <geocode>
+            <TCEforms>
+            <label></label>
+            <config>
+              <type>input</type>   
+              <form_type>user</form_type>
+              <userFunc>tx_rzgooglemaps_geocode->geoCodeMap</userFunc>    
+            </config>
+            </TCEforms>
+          </geocode>
+          <latitude>  
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.latitude</label>
+            <config>
+              <type>input</type>
+              <default>0</default>
+              <form_type>user</form_type>
+              <userFunc>tx_rzgooglemaps_geocode->user_latitude</userFunc>                    
+            </config>
+            </TCEforms>
+          </latitude>
+          <longitude>  
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.longitude</label>
+            <config>
+              <type>input</type>
+              <default>0</default>
+              <form_type>user</form_type>
+              <userFunc>tx_rzgooglemaps_geocode->user_longitude</userFunc>                    
+            </config>
+            </TCEforms>
+          </longitude>
+          <width>    
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.width</label>
+            <config>
+              <type>input</type>
+              <size>5</size>
+            </config>
+            </TCEforms>
+          </width>		 
+          <height>      
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.height</label>
+            <config>
+              <type>input</type>
+              <size>5</size>
+            </config>
+            </TCEforms>
+          </height>		 
+          <zoom>      
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.zoom</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">1</numIndex>
+                <numIndex index="1">1</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">2</numIndex>
+                <numIndex index="1">2</numIndex>
+              </numIndex>       
+              <numIndex index="2" type="array">
+                <numIndex index="0">3</numIndex>
+                <numIndex index="1">3</numIndex>
+              </numIndex>       
+              <numIndex index="3" type="array">
+                <numIndex index="0">4</numIndex>
+                <numIndex index="1">4</numIndex>
+              </numIndex>       
+              <numIndex index="4" type="array">
+                <numIndex index="0">5</numIndex>
+                <numIndex index="1">5</numIndex>
+              </numIndex>       
+              <numIndex index="5" type="array">
+                <numIndex index="0">6</numIndex>
+                <numIndex index="1">6</numIndex>
+              </numIndex>       
+              <numIndex index="6" type="array">
+                <numIndex index="0">7</numIndex>
+                <numIndex index="1">7</numIndex>
+              </numIndex>       
+              <numIndex index="7" type="array">
+                <numIndex index="0">8</numIndex>
+                <numIndex index="1">8</numIndex>
+              </numIndex>       
+              <numIndex index="8" type="array">
+                <numIndex index="0">9</numIndex>
+                <numIndex index="1">9</numIndex>
+              </numIndex>       
+              <numIndex index="9" type="array">
+                <numIndex index="0">10</numIndex>
+                <numIndex index="1">10</numIndex>
+              </numIndex>       
+              <numIndex index="10" type="array">
+                <numIndex index="0">11</numIndex>
+                <numIndex index="1">11</numIndex>
+              </numIndex>       
+              <numIndex index="11" type="array">
+                <numIndex index="0">12</numIndex>
+                <numIndex index="1">12</numIndex>
+              </numIndex>       
+              <numIndex index="12" type="array">
+                <numIndex index="0">13</numIndex>
+                <numIndex index="1">13</numIndex>
+              </numIndex>       
+              <numIndex index="13" type="array">
+                <numIndex index="0">14</numIndex>
+                <numIndex index="1">14</numIndex>
+              </numIndex>       
+              <numIndex index="14" type="array">
+                <numIndex index="0">15</numIndex>
+                <numIndex index="1">15</numIndex>
+              </numIndex>       
+              <numIndex index="15" type="array">
+                <numIndex index="0">16</numIndex>
+                <numIndex index="1">16</numIndex>
+              </numIndex>       
+              <numIndex index="16" type="array">
+                <numIndex index="0">17</numIndex>
+                <numIndex index="1">17</numIndex>
+              </numIndex>       
+              <numIndex index="17" type="array">
+                <numIndex index="0">18</numIndex>
+                <numIndex index="1">18</numIndex>
+              </numIndex>       
+              <numIndex index="18" type="array">
+                <numIndex index="0">19</numIndex>
+                <numIndex index="1">19</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </zoom>	
+        </el>     
+      </ROOT>     
+    </sDEF>       
+    <description>   
+      <ROOT>      
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.sheet_description</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>	    
+          <text_act>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.infowindow</label>
+            <config>
+              <type>check</type>
+              <checkbox></checkbox>
+              <size>1</size>
+            </config>
+            <onChange>reload</onChange>
+            </TCEforms>
+          </text_act>
+          <route>      
+            <TCEforms>        
+              <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.route</label>
+              <displayCond>FIELD:text_act:=:1</displayCond>
+              <config>          
+                <type>check</type>
+                <checkbox></checkbox>
+                <size>1</size>    
+              </config>         
+              <onChange>reload</onChange>
+            </TCEforms>       
+          </route>          
+          <address>      
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.address</label>
+            <displayCond>FIELD:route:=:1</displayCond>
+              <config>
+                <type>input</type>
+                <size>40</size>
+              </config>
+            </TCEforms>
+          </address>	         		
+          <text>      
+            <TCEforms>  
+            <exclude>1</exclude>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.text</label>
+            <displayCond>FIELD:text_act:=:1</displayCond>
+            <config>    
+              <type>text</type>
+            </config>   
+            <defaultExtras>richtext[formatblock|bold|italic|underline|left|center|right|orderedlist|unorderedlist|outdent|indent|link|image|chMode]:rte_transform[mode=css]</defaultExtras>
+            </TCEforms> 
+          </text>     
+        </el>     
+      </ROOT>     
+    </description>
+    <options>       
+      <ROOT>      
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.sheet_options</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>			
+          <maptype>        
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.type</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.map_type_normal</numIndex>
+                <numIndex index="1">G_NORMAL_MAP</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.map_type_satellite</numIndex>
+                <numIndex index="1">G_SATELLITE_MAP</numIndex>
+              </numIndex>       
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.map_type_hybrid</numIndex>
+                <numIndex index="1">G_HYBRID_MAP</numIndex>
+              </numIndex>       
+              <numIndex index="3" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.map_type_physical</numIndex>
+                <numIndex index="1">G_PHYSICAL_MAP</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </maptype>
+          <controls> 
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.showzoom</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.yes</numIndex>
+                <numIndex index="1">map.addControl(new GLargeMapControl());</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.no</numIndex>
+                <numIndex index="1"></numIndex>
+              </numIndex>       
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.small</numIndex>
+                <numIndex index="1">map.addControl(new GSmallMapControl());</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </controls>
+          <controls_top>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.showcontrols</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.yes</numIndex>
+                <numIndex index="1">map.addControl(new GMapTypeControl());</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">Nein</numIndex>
+                <numIndex index="1"></numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </controls_top>
+          <marker_show>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.showmarker</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.yes</numIndex>
+                <numIndex index="1">false</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.no</numIndex>
+                <numIndex index="1">true</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            <onChange>reload</onChange>
+            </TCEforms>
+          </marker_show>
+          <marker_color>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor</label>
+            <displayCond>FIELD:marker_show:=:false</displayCond>
+            <config>
+              <type>select</type>
+              <items type="array"> 
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor_red</numIndex>
+                <numIndex index="1">red</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor_blue</numIndex>
+                <numIndex index="1">blue</numIndex>
+              </numIndex>       
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor_green</numIndex>
+                <numIndex index="1">green</numIndex>
+              </numIndex>       
+              <numIndex index="3" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor_yellow</numIndex>
+                <numIndex index="1">yellow</numIndex>
+              </numIndex>       
+              <numIndex index="4" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor_orange</numIndex>
+                <numIndex index="1">orange</numIndex>
+              </numIndex>       
+              <numIndex index="5" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markercolor_purple</numIndex>
+                <numIndex index="1">purple</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </marker_color>
+          <marker_type>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markertype</label>
+            <config>
+              <type>select</type>
+              <items type="array"> 
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markertype_std</numIndex>
+                <numIndex index="1">dot</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markertype_pin</numIndex>
+                <numIndex index="1">pin</numIndex>
+              </numIndex>       
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markertype_home</numIndex>
+                <numIndex index="1">home</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </marker_type>
+          <draggable>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markermove</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.yes</numIndex>
+                <numIndex index="1">true</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.no</numIndex>
+                <numIndex index="1">false</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </draggable>
+          <bouncy>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.markerbounce</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.yes</numIndex>
+                <numIndex index="1">true</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.no</numIndex>
+                <numIndex index="1">false</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </bouncy>
+          <bounce_gravity>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.bouncegravity</label>
+            <config>
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">1.0</numIndex>
+                <numIndex index="1">1.0</numIndex>
+              </numIndex>       
+              <numIndex index="1" type="array">
+                <numIndex index="0">0.8</numIndex>
+                <numIndex index="1">0.8</numIndex>
+              </numIndex>       
+              <numIndex index="2" type="array">
+                <numIndex index="0">0.6</numIndex>
+                <numIndex index="1">0.6</numIndex>
+              </numIndex>       
+              <numIndex index="3" type="array">
+                <numIndex index="0">0.4</numIndex>
+                <numIndex index="1">0.4</numIndex>
+              </numIndex>       
+              <numIndex index="4" type="array">
+                <numIndex index="0">0.2</numIndex>
+                <numIndex index="1">0.2</numIndex>
+              </numIndex>       
+              </items>          
+              <maxitems>1</maxitems>
+              <size>1</size>          
+            </config>
+            </TCEforms>
+          </bounce_gravity>
+          <wikide>  
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.wikide</label>
+            <config>
+              <type>check</type>
+              <checkbox></checkbox>
+              <size>1</size>
+            </config>
+            </TCEforms>
+          </wikide> 
+          <wikien>  
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.wikien</label>
+            <config>
+              <type>check</type>
+              <checkbox></checkbox>
+              <size>1</size>
+            </config>
+            </TCEforms>
+          </wikien> 
+          <panoramio>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.panoramio</label>
+            <config>
+              <type>check</type>
+              <checkbox></checkbox>
+              <size>1</size>
+            </config>
+            </TCEforms>
+          </panoramio>
+          <map_search>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.search</label>
+            <config> 
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.no</numIndex>
+                <numIndex index="1">0</numIndex>
+              </numIndex>
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.yes</numIndex>
+                <numIndex index="1">1</numIndex>
+              </numIndex>
+              </items>
+              <maxitems>1</maxitems>
+              <size>1</size>         
+            </config>
+            <onChange>reload</onChange> 
+            </TCEforms>
+          </map_search>
+          <map_search_anchor>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.mapsearchanchor</label>
+            <displayCond>FIELD:map_search:=:1</displayCond>
+            <config> 
+              <type>select</type>
+              <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.mapsearchanchorleftbottom</numIndex>
+                <numIndex index="1">G_ANCHOR_BOTTOM_LEFT</numIndex>
+              </numIndex>
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.mapsearchanchorrightbottom</numIndex>
+                <numIndex index="1">G_ANCHOR_BOTTOM_RIGHT</numIndex>
+              </numIndex>
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.mapsearchanchorlefttop</numIndex>
+                <numIndex index="1">G_ANCHOR_TOP_LEFT</numIndex>
+              </numIndex>
+              <numIndex index="3" type="array">
+                <numIndex index="0">LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.mapsearchanchorrighttop</numIndex>
+                <numIndex index="1">G_ANCHOR_TOP_RIGHT</numIndex>
+              </numIndex>
+              </items>
+              <maxitems>1</maxitems>
+              <size>1</size>      
+            </config> 
+            </TCEforms>
+          </map_search_anchor>
+        </el>     
+      </ROOT>     
+    </options>
+    <advanced_view>   
+      <ROOT>      
+        <TCEforms>
+          <sheetTitle>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.sheet_advanced_view</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>	        		
+          <not_in_map>      
+            <TCEforms>        
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.not_in_map</label>
+            <config>          
+              <type>check</type>
+              <checkbox></checkbox>
+              <size>1</size>    
+            </config>         
+            </TCEforms>       
+          </not_in_map>
+          <directlang>    
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.directlang</label>
+            <config>
+              <type>input</type>
+              <size>5</size>
+            </config>
+            </TCEforms>
+          </directlang>    
+          <directwidth>    
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.directwidth</label>
+            <config>
+              <type>input</type>
+              <size>5</size>
+            </config>
+            </TCEforms>
+          </directwidth>  
+          <template_file>
+            <TCEforms>
+            <label>LLL:EXT:rzgooglemaps/locallang_tca.xml:rzgooglemaps.pi_flexform.template_file</label>
+            <config>
+              <type>group</type>
+              <internal_type>file</internal_type>
+              <allowed>tmpl,html,htm</allowed>
+              <max_size>100</max_size>
+              <uploadfolder>uploads/tx_rzgooglemaps</uploadfolder>
+              <maxitems>1</maxitems>
+              <size>1</size>
+              <selectedListStyle>Width:180px</selectedListStyle>
+            </config>
+            </TCEforms>
+          </template_file>   
+        </el>     
+      </ROOT>     
+    </advanced_view>         
+  </sheets>       
+</T3DataStructure>

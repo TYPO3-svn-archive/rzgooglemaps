@@ -1,0 +1,2 @@
+# cat=basic; type=string; label=Google Maps API Key
+api_key = 
