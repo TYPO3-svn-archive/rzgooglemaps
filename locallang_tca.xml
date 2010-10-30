@@ -179,7 +179,7 @@
 			<label index="rzgooglemaps.pi_flexform.directlang">Langue du guide routier (autoris&#233;: de, en, fr, ja, es, ...)</label>
 			<label index="rzgooglemaps.pi_flexform.not_in_map">Ne pas indiquer la carte</label>  
 		</languageKey>
-		<languageKey index="fr" type="array">
+		<languageKey index="it" type="array">
 		  <label index="rzgooglemaps.pi_flexform.sheet_advanced_view">Tragitto pianificazione allargato</label>
 		  <label index="rzgooglemaps.pi_flexform.sheet_display">Visualizzare</label>
 		  <label index="rzgooglemaps.pi_flexform.sheet_general">Generale</label>
